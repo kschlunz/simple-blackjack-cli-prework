@@ -36,12 +36,12 @@ def initial_round
   display_card_total(sum)
   sum
 
-
-
 end
 
 def hit?
-  # code hit? here
+  puts prompt_user
+  puts get_user_input
+
 end
 
 def invalid_command
