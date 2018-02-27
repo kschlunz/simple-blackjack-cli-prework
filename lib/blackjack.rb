@@ -54,9 +54,7 @@ def invalid_command
   # code invalid_command here
 end
 
-def end_game(card_total)
-  puts "Sorry, you hit #{card_total}. Thanks for playing!"
-end 
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
@@ -72,6 +70,7 @@ def runner
     display_card_total(card_total)
 
   end
-end_game
+
+  end_game(card_total)
 
 end
